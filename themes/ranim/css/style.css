@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0.9em;
+}
+
+/* Header */
+
+.site-header {
+    flex: 0 0 auto;
+    color: #2b2e30;
+    padding: 0 2em;
+}
+
+.site-header a, .site-header a:visited {
+    color: #2b2e30;
+}
+
+.header {
+    margin-top: -7em;
+    padding-left: 14em;
+}
+
+.header p {
+    display: block;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    font-size: 29px;
+    overflow: auto;
+    font-style: italic;
+}
+
+.header span {
+    display: block;
+    padding-left: 1em;
+    padding-top: 1.4em;
+    overflow: auto;
+}
+
+.header img {
+    float: left;
+    width: 10em;
+}
+
+.flash img {
+    width: 20em;
+}
+
+.flash {
+    padding-left: 28em;
+    border-top: 1px solid black;
+    border-radius: 10px;
+    border-style: inherit;
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+}
+
+.index p {
+    width: 40em;
+    float: left;
+    padding-top: 0.8em;
+    color: #333;
+}
+
+.container {
+    padding: 0 0.5em;
+    margin: 0 auto;
+    width: 60em;
+    padding-top: 0.8em;
+}
+
+.container p {
+    color: #333;
+    padding-top: 0.5em;
+}
+
+.me img {
+    overflow: auto;
+    width: 16em;
+}
+
+.me {
+    overflow: auto;
+}
+
+.me p {
+    font-style: italic;
+    width: auto;
+    padding: 0.5em 1em 2em;
+
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    background: #2b2e30;
+    color: #e74c3c;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.site-footer a {
+    color: #f0f0f0;
+}
