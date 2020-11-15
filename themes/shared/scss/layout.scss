@@ -1,0 +1,193 @@
+/* layouten på fortfolio 
+innehåller header + footer layout
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 $none;
+}
+
+p {
+    font-family: $font;
+    padding: 0.5rem;
+    /*text-align: justify;*/
+    word-spacing: 0.2rem;
+}
+
+h4 {
+    padding: 0.6em;
+}
+
+body {
+    display: $flex;
+    flex-direction: column;
+    background-color: #fcf;
+    line-height: $line;
+    font-size: $text-size;
+    color: $text-color;
+}
+
+a {
+    text-decoration: $none;
+}
+
+a:hover {
+    color: $text-color;
+}
+
+h1 {
+    @extend %header-info;
+}
+
+h2 {
+    @extend %header-info;
+}
+
+h3 {
+    @extend %header-info;
+}
+
+h4 {
+    @extend %header-info;
+}
+
+h5 {
+    @extend %header-info;
+}
+
+h6 {
+    @extend %header-info;
+}
+
+.main {
+    flex: 1 0 $auto;
+    width: $width;
+    margin: $auto;
+    background-color: #f5f5f5;
+    padding-bottom: 2em;
+    min-height: 10.7em;
+}
+
+.container {
+    padding: 0 0.5em;
+}
+
+.widescreen .container {
+    max-width: 72em;
+}
+
+/* header */
+
+header {
+    background: $white;
+    width: $width;
+    margin: $auto;
+    flex: 0 0 $auto;
+}
+ 
+.title {
+    float: left;
+    padding: 3em 3em 3em 0;
+
+    p {
+        font-style: italic;
+        padding-left: 1em;
+    }
+
+    * {
+        margin: 0;
+        color: #111;
+    }
+}
+
+.logo {
+    height: 10.8em;
+    float: left;
+    padding: 3em 3em 3em 0;
+
+    img {
+        min-width: 4.8em;
+    }
+
+    * {
+        display: block;
+        height: 100%;
+    }
+}
+  
+.logo+.title h1 {
+    margin: 0.4rem 0;
+}
+  
+.logo+.title.tagline h1 {
+    margin: 0;
+}
+  
+.flash {
+    img {
+        margin-top: -2em;
+    }
+}
+
+/* footer */
+
+.footer {
+    background: #707070;
+    color: #c0c0c0;
+    padding: 0.7em;
+    flex: 0 0 $auto;
+
+    a {
+        color: #ddd;
+        padding: 0.5em;
+    }
+
+    a:hover {
+        color: $white;
+    }
+
+    .social {
+        float: right;
+        font-size: 2rem;
+        padding-right: 1em;
+    }
+}
+
+/*** EXTRA SMALL DEVICES ***/
+
+@media (max-width: 767px) {
+    .main {
+        width: 100%;
+        padding: 0.5em;
+    }
+
+    .flash {
+        img {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    }
+  
+    .logo {
+        padding: 2em 1.5em 2em 0;
+        height: 8.8em;
+    }
+
+    .title {
+        padding: 2em 1.5em 2em 0;
+    }
+  
+    .footer {
+        p {
+            padding: 1em 0;
+        }
+
+        .social {
+            padding: 0.5em 0 0.5em 1em;
+        }
+    }
+
+}

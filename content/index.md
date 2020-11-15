@@ -1,5 +1,5 @@
 ---
-Title: Home
+Title: Hem
 Description: This is our index page.
 ---
 
@@ -16,6 +16,7 @@ Välkommen
  <p>   Mina intresse är att spela piano, trummor, basketboll, badminton, fotboll och vollyboll. Min stora intressen är GAMING. Jag brukar spela många dator och mobilspel. Ett mobilspel som jag tycker om och brukar alltid köra med mina kompisar är PUBG Mobile.</p>
 
 </div>
+
 <div class="me">
     <img src="image/ranim.jpg">
     <p> Ranims karaktär i PUBG MOBILE</p>

@@ -1,0 +1,57 @@
+/* innehåller stilen på index sidor
+hem + om + redovisning 
+*/
+
+/* hem */
+
+.index p {
+    width: 41em;
+    float: left;
+    padding-left: 0.5em;
+}
+  
+.main {
+    .container {
+        margin: 0 $auto;
+    }
+    
+    /* redosivnings sida */
+
+    li {
+        list-style-type: none;
+        font-family: $font;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .nav-toggle:hover {
+        text-decoration: underline;
+    }
+}
+  
+.me {
+    overflow: $auto;
+
+    img {
+        overflow: $auto;
+        width: 16em;
+    }
+  
+    p {
+        font-style: italic;
+        width: $auto;
+    }
+}
+
+/*** EXTRA SMALL DEVICES ***/
+  
+@media (max-width: 767px) {
+    .index {
+        p {
+            float: $none;
+            width: 100%;
+        }
+    }
+}

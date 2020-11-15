@@ -1,0 +1,25 @@
+/* variablerna som används i layout.scss + nav.scss + index.scss*/
+
+$font: 'Open Sans', sans-serif;
+
+$flex: flex;
+$text-color: #444;
+$line: 1.6;
+$text-size: 1rem;
+
+$none: none;
+$header-color: #333;
+$bold: bold;
+$header-font: 'Poppins', sans-serif;
+
+$auto: auto;
+$width: 70%;
+$white: #fff;
+
+/* arv som används i layout.scss + nav.scss + index.scss*/
+
+%header-info {
+    font-family: $header-font;
+    font-weight: $bold;
+    color: $header-color;
+}
