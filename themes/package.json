@@ -8,7 +8,6 @@
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass ranim/scss/style.scss ranim/css/style.css --no-source-map",
     "style-min": "sass ranim/scss/style.scss ranim/css/style.min.css --no-source-map --style compressed",
-    
     "watch": "sass ranim/scss/style.scss ranim/css/style.css --no-source-map --watch",
     "watch-min": "sass ranim/scss/style.scss ranim/css/style.min.css --no-source-map --style compressed --watch"
   },

@@ -1,16 +1,50 @@
 ---
 Title: Redovisning
 Description: This is our Report page
+Template: report
 ---
 
 Redovisningssida för design
 ==========================
 
+<div class="kmom-box">
+    <h3> kmom01 </h3>
+    <p> Något om kursmomentet... </p>
+    <a href="report/kmom01"> <i class="fas fa-arrow-circle-right" style="font-size:1.5em"></i> </a>
+</div>
 
-* [kmom01](report/kmom01)
-* [kmom02](report/kmom02)
-* [kmom03](report/kmom03)
-* [kmom04](report/kmom04)
-* [kmom05](report/kmom05)
-* [kmom06](report/kmom06)
-* [kmom10](report/kmom10)
+<div class="kmom-box">
+    <h3> kmom02 </h3>
+    <p> Något om kursmomentet... </p>
+    <a href="report/kmom02"> <i class="fas fa-arrow-circle-right" style="font-size:1.5em"></i> 
+</div>
+
+<div class="kmom-box">
+    <h3> kmom03 </h3>
+    <p> Något om kursmomentet... </p>
+    <a href="report/kmom03"> <i class="fas fa-arrow-circle-right" style="font-size:1.5em"></i> 
+</div>
+
+<div class="kmom-box">
+    <h3> kmom04 </h3>
+    <p> Något om kursmomentet... </p>
+    <a href="report/kmom04"> <i class="fas fa-arrow-circle-right" style="font-size:1.5em"></i> 
+</div>
+
+<div class="kmom-box">
+    <h3> kmom05 </h3>
+    <p> Något om kursmomentet... </p>
+    <a href="report/kmom05"> <i class="fas fa-arrow-circle-right" style="font-size:1.5em"></i> 
+</div>
+
+<div class="kmom-box">
+    <h3> kmom06 </h3>
+    <p> Något om kursmomentet... </p>
+    <a href="report/kmom06"> <i class="fas fa-arrow-circle-right" style="font-size:1.5em"></i> 
+</div>
+
+<div class="kmom-box project">
+    <h3> kmom10 </h3>
+    <p> Något om kursmomentet... </p>
+    <a href="report/kmom10"> <i class="fas fa-arrow-circle-right" style="font-size:1.5em"></i> 
+</div>

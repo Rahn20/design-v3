@@ -1,0 +1,41 @@
+/* report.scss */
+.landingpage {
+    display: grid;
+    gap: 0.5em 0.5em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    grid-column: span 1;
+    border: 1px solid #000;
+    /*display: flex;
+    flex-direction: column;*/
+    text-align: center;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+.kmom-box h3 {
+    background-color: #5f9ea0;
+}
+
+@media (max-width: 767px) {
+    .kmom-box {
+        grid-column: span 4;
+    }
+
+    .kmom-box.project {
+        grid-column: span 4;
+    }
+
+    .landingpage {
+        grid-column: span 4;
+    }
+}
+

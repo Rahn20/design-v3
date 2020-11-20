@@ -1,10 +1,13 @@
 ---
 Title: kmom02
 Description: Part 2
+Template: kmom
 ---
 
-kursmoment 2
-==========================
+
+<div class="kmom-content">
+
+<h1> Kursmoment 2 </h1>
 
 
 <h4>1- Vad tycker du om SASS än så länge?</h4>
@@ -35,3 +38,5 @@ Min första SCSS fil heter variables-extend, den innehåller bara variabler och 
 <h4> 6- Vilken är din TIL för detta kmom? </h4>
 <p>Idag lärde jag mig använda npm, SASS och Node.
 </p>
+
+</div>

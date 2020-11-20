@@ -1,0 +1,33 @@
+/* stylen på kursmonet */
+
+.kmom {
+    display: flex;
+}
+
+.links {
+    flex-direction: column;
+    font-size: 1.2rem;
+    width: 15%;
+    padding: 1em;
+    flex-basis: 1px;
+}
+
+.kmom-content {
+    margin-left: 1em;
+}
+
+@media (max-width: 767px) {
+    .kmom {
+        flex-wrap: wrap;
+    }
+
+    .links {
+        width: 100%;
+        padding: none;
+    }
+
+    .kmom-content {
+        margin: 0;
+        width: 760px;
+    }
+}

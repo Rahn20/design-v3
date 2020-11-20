@@ -1,11 +1,13 @@
 ---
 Title: kmom01
 Description: Part 1
+Template: kmom
 ---
 
-kursmoment 1
-==========================
 
+<div class="kmom-content">
+
+<h1> Kursmoment 1 </h1>
 
 
 <h4>1- Har du jobbat med ramverk eller andra CMS:er tidigare?</h4>
@@ -23,3 +25,5 @@ kursmoment 1
 
 <h4> 5- Vilken är din TIL för detta kmom?</h4>
 <p>Idag lärde jag mig använda Git, Pico, skriva i MD fil och skapa ett repo i GitHub. </p>
+
+</div>
