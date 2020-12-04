@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass ranim/scss/style.scss ranim/css/style.css --no-source-map",
-    "style-min": "sass ranim/scss/style.scss ranim/css/style.min.css --no-source-map --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
     "watch": "sass ranim/scss/style.scss ranim/css/style.css --no-source-map --watch",
-    "watch-min": "sass ranim/scss/style.scss ranim/css/style.min.css --no-source-map --style compressed --watch"
+    "watch-min": "sass ranim/scss/style.scss ranim/css/style.min.css --no-source-map --style compressed --watch",
+    "style-dark": "sass ranim/scss/style-dark.scss ranim/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass ranim/scss/style-dark.scss ranim/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass ranim/scss/style.scss ranim/css/style.css --no-source-map",
+    "style-light-min": "sass ranim/scss/style.scss ranim/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,80 @@
+@import '../../node_modules/normalize.css/normalize.css';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import '../../shared/scss/base';
+
+body {
+    background-color: #1a1a1a;
+}
+
+.main {
+    background-color: #661a00;
+}
+
+header {
+    background-color: #c30;
+}
+
+.footer {
+    background-color: #333;
+}
+
+.links {
+    background-color: #c30;
+}
+
+a {
+    color: #1a1a1a;
+}
+
+.kmom-box {
+    background-color: #c30;
+}
+
+.kmom-box h3 {
+    background-color: #1a1a1a;
+}
+
+.flash img {
+    filter: contrast(100%);
+}
+
+p a {
+    color: #d9d9d9;
+}
+
+p {
+    color: #d9d9d9;
+}
+
+h1 {
+    color: #d9d9d9;
+}
+
+h4 {
+    color: #d9d9d9;
+}
+
+h2 {
+    color: #d9d9d9;
+}
+
+h3 {
+    color: #d9d9d9;
+}
+
+h5 {
+    color: #d9d9d9;
+}
+
+h6 {
+    color: #d9d9d9;
+}

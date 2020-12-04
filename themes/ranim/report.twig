@@ -17,7 +17,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 </head>
 
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -77,7 +81,7 @@
     <div id="footer" class="footer">
         <div class="container">
             <div class="social">
-            
+
                 {% for social in pages["_meta"].meta.social %}
                     <a href="{{ social.url }}" title="{{ social.title }}" role="button">
                         <i class="{{ social.icon }}" aria-hidden="true"></i>
@@ -105,7 +109,6 @@
                         <span class="sr-only">{{ social_3.title }}</span>
                     </a>
                 {% endfor %}
-
             </div>
         </div>
     </div>
