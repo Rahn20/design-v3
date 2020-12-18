@@ -25,6 +25,19 @@
     background-color: #5f9ea0;
 }
 
+/* load-page */
+
+.list li {
+    list-style-type: square;
+    font-family: $font;
+    word-spacing: 0.2rem;
+    padding: 0.2rem;
+}
+
+.list ul {
+    padding-left: 1.4rem;
+}
+
 @media (max-width: 767px) {
     .kmom-box {
         grid-column: span 4;

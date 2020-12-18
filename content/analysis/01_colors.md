@@ -17,7 +17,7 @@ Jag valde ut 3 webbplatser, Pubg Mobile (Player Unknown’s Battlegrounds), Zala
 Metod
 -----------------------
 
-Jag har inte använt något speciellt verktyg eller metod. Jag bara valde ut 3 olika webbplatser som har olika mål, innehåll, färger och typografi.
+Jag har använt mig av hemsidan PageSpeed Insights för att analysera laddningstid för dator och mobil. 
 
 Resultat
 -----------------------
@@ -102,4 +102,4 @@ Källor som använts i denna rapport.
 
 Övrigt
 -----------------------
-Ranim Hanna Malko som skrev rapporten. 
+Rapporten är skriven av Ranim Hanna Malko.

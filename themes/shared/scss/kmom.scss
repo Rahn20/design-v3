@@ -1,4 +1,4 @@
-/* stylen på kursmonet */
+/* stylen på kursmoment */
 
 .kmom {
     display: flex;
@@ -30,4 +30,21 @@
         margin: 0;
         width: 760px;
     }
+}
+
+// video
+
+.embed-container {
+    position: relative;
+    padding-bottom: 60%;
+    height: 0;
+    max-width: 100%;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

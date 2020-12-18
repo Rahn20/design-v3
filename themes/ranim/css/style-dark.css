@@ -6240,12 +6240,12 @@ header {
 .footer {
   background: #707070;
   color: #c0c0c0;
-  padding: 0.7em;
+  padding: 0.8em;
   flex: 0 0 auto;
 }
 .footer a {
   color: #ddd;
-  padding: 0.5em;
+  padding: 0.3em;
 }
 .footer a:hover {
   color: #fff;
@@ -6285,7 +6285,7 @@ header {
     padding: 0.5em 0 0.5em 1em;
   }
 }
-/* innehåller stilen på index sidor
+/* innehåller stylen på index sidor
 hem + om + redovisning + analys
 */
 /* hem */
@@ -6460,6 +6460,18 @@ hem + om + redovisning + analys
   background-color: #5f9ea0;
 }
 
+/* load-page */
+.list li {
+  list-style-type: square;
+  font-family: "Open Sans", sans-serif;
+  word-spacing: 0.2rem;
+  padding: 0.2rem;
+}
+
+.list ul {
+  padding-left: 1.4rem;
+}
+
 @media (max-width: 767px) {
   .kmom-box {
     grid-column: span 4;
@@ -6473,7 +6485,7 @@ hem + om + redovisning + analys
     grid-column: span 4;
   }
 }
-/* stylen på kursmonet */
+/* stylen på kursmoment */
 .kmom {
   display: flex;
 }
@@ -6503,6 +6515,44 @@ hem + om + redovisning + analys
   .kmom-content {
     margin: 0;
     width: 760px;
+  }
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 60%;
+  height: 0;
+  max-width: 100%;
+}
+
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1em;
+  padding: 1em;
+}
+
+.gallery img {
+  border: 1px solid #000;
+  max-width: 100%;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: auto;
   }
 }
 body {
@@ -6570,5 +6620,9 @@ h5 {
 }
 
 h6 {
+  color: #d9d9d9;
+}
+
+.list li {
   color: #d9d9d9;
 }

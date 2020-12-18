@@ -1,0 +1,29 @@
+/* gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+    padding: 1em;
+}
+
+.gallery img {
+    border: 1px solid #000;
+    max-width: 100%;
+}
+
+// används för surfplattor
+
+@media (max-width: 992px) {
+    .gallery {
+        grid-template-columns: auto auto;
+    }
+}
+
+//används för mobiler
+
+@media (max-width: 767px) {
+    .gallery {
+        grid-template-columns: auto;
+    }
+}
