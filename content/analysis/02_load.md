@@ -22,6 +22,9 @@ Jag har använt mig av PageSpeed Insights för att analysera laddningstid för d
 Resultat
 -----------------------
 
+<div class="image">
+    <a href="../image/pubg_mobile.jpg"><img src="../image/pubg_mobile.jpg" alt="pubg_mobile"> </a>
+</div>
 <span class="bold-text">Pubg Mobile </span> fick betyget 46 av 100 enligt PageSpeed DATOR analys och 41 av 100 MOBIL analys.
 <p> Dator-analys:</p>
 Labbdata: First Contentful Paint 0.4s, Time to Interactive 7.1s, speed Index 3.9s, Total Blocking Time 190ms, Largest ContentPaint 6.6s, Cumulative Layout Shift 0.035. 
@@ -58,10 +61,10 @@ Mobil-analys:
 
 Enligt devtools analysen visar den laddningstid 4.5s, antal resurser som laddas 20.8MB och sidans totala storlek 25.2MB.
 
-<div class="image">
-    <a href="../image/pubg_mobile.jpg"><img src="../image/pubg_mobile.jpg"> </a>
-</div>
 
+<div class="image">
+    <a href= "../image/zalando.jpg"> <img src="../image/zalando.jpg" alt="zalando"> </a>
+</div>
 <span class="bold-text"> Zalando </span>fick betyget 41 av 100 enligt PageSpeed DATOR analys och 16 av 100 MOBIL analys.
 <p> Dator-analys:</p>
 Labbdata: First Contentful Paint 0.7s, Time to Interactive 3.9s, speed Index 4.2s, Total Blocking Time 1050ms, Largest ContentPaint 4.2s, Cumulative Layout Shift 0.019. 
@@ -96,11 +99,10 @@ Mobil-analys:
 
 Enligt devtools analysen visar den laddningstid 3.5s, antal resurser som laddas 1.8MB och sidans totala storlek 5.0MB.
 
+
 <div class="image">
-    <a href= "../image/zalando.jpg"> <img src="../image/zalando.jpg"> </a>
+    <a href= "../image/norde.jpg"> <img src="../image/norde.jpg" alt="nordea"> </a>
 </div>
-
-
 <span class="bold-text">Nordea </span> banken fick betyget 97 av 100 enligt PageSpeed DATOR analys och 33 av 100 MOBIL analys.
 
 <p>Dator-analys:</p>
@@ -137,13 +139,6 @@ Mobil-analys:
 </div>
 
 Enligt devtools analysen visar den laddningstid 1.13s, antal resurser som laddas 1.0MB och sidans totala storlek 1.4MB.
-
-<div class="image">
-    <a href= "../image/norde.jpg"> <img src="../image/norde.jpg"> </a>
-</div>
-
-
-
 
 Analys
 -----------------------

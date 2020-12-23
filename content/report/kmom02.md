@@ -8,7 +8,8 @@ Template: kmom
 <div class="kmom-content">
 
 <h1> Kursmoment 2 </h1>
-
+<h2></h2>
+<h3></h3>
 
 <h4>1- Vad tycker du om SASS än så länge?</h4>
 <p>Jag tycker att det är kult att man kan använda variabler i scss, de fungerar med dollartecknet exakt som variabler i   PHP, jag hade lagt bara några variabler i min variable-extend.scss och använt de i min layout, index och nav filerna för att få mindre koder i mina filer då enligt kraven så skulle man använda style.scss för att importera moduler. Så jag hade inte lagt koder där utan använt den för att importera normalize.css, mina fonter och moduler jag skapade. Någonting som jag verkligen gillade om SASS var nästlade regler och arv. Jag använde de i mina SASS filer, jag gillade de faktiskt, man får mindre kod och koden blir mer tydligt.

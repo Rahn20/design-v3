@@ -8,7 +8,8 @@ Template: kmom
 <div class="kmom-content">
 
 <h1> Kursmoment 3 </h1>
-
+<h2></h2>
+<h3></h3>
 <h4> 1- Hur har det gått att jobba med CSS-Grid/Flexbox?</h4>
 <p>Det har gått bra med CSS-Grid och Flexbox, jag ville testa båda så jag använde CSS-Grid i min report-sida och Flexbox i min kmom-sida. Det var många Grid och Flex koder där jag inte kände innan och brukade inte heller använda de. </p>
 

@@ -8,8 +8,8 @@ Template: kmom
 <div class="kmom-content">
 
 <h1> Kursmoment 1 </h1>
-
-
+<h2></h2>
+<h3></h3>
 <h4>1- Har du jobbat med ramverk eller andra CMS:er tidigare?</h4>
 <p> Jag har aldrig jobbat med Pico eller CMS tidigare. </p>
 

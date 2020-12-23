@@ -21,9 +21,13 @@ Jag har använt mig av hemsidan PageSpeed Insights för att analysera laddningst
 
 Resultat
 -----------------------
+<div class="image">
+    <a href="../image/pubg_mobile.jpg"><img src="../image/pubg_mobile.jpg" alt="Pubg_mobile> </a>
+</div>
+
 <span class="bold-text">Pubg Mobile </span> är en spelsajt, den har ett mörkt tema, en stor bakgrundsbild (kort video) på deras startsidan, färgerna som används i webbplatsen är ungefär samma färger som deras logo har, de använder mest gul, vitt, svart och mörkgrå. Navigeringen har bakgrundsfärgen ”rgba(0,0,0,0.73)”,  border bottom har färgen ”#ffb400”, textfärgen är ”#000” och typsnittet är ”lucida grande", tahoma, verdana, arial, sans-serif”. De har normal ord och alfabets avstånd. Footer har bakgrundsfärgen ”#131313”, typsnittet ”teko” och textstorleken 12 pixlar. Webbplatsen innehåller mycket information, de har många undermenyer i navigeringen. Det finns många bilder i hemsidan och de bilderna har också mörka färger, texten på bilderna är vitt och gul som deras logo har. Bilderna passar till det temat de har.
 
-<p> Färgerna som webbsidan använder mest: </p>
+<p> Färgerna som Pubg Mobile använder mest: </p>
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
         <td style="height: 50px; width: 50px; background-color: rgba(0,0,0,0.73)">
@@ -34,13 +38,14 @@ Resultat
     </tr>
 </table>
 
+
 <div class="image">
-    <a href="../image/pubg_mobile.jpg"><img src="../image/pubg_mobile.jpg"> </a>
+    <a href= "../image/zalando.jpg"> <img src="../image/zalando.jpg" alt="zalando"> </a>
 </div>
 
-<span class="bold-text"> Zalando </span>har ett ljust tema, de använder mest vitt, ljuslila, ljusblå, ljusgrön, ljusrosa och sedan mörkgrå i deras footer. Typsnittet är ”sans-serif”, deras header och navigeringen har textstorleken 14 pixlar och typsnittet ”HelveticaNow”.  Som bakgrundsfärger använder de hsl(259,74.8%,31.08%), hsl(197,86.4%,20.7%), rgb(243, 146, 96),  rgb(12, 131, 104) , rgb(102, 102, 102) , #0C7AA4, #1a1a1a och #efeff0, de använder #1a1a1a och #fff som textfärger. Textstorleken på deras main (innehåll) är 12 pixlar, de har alfabet avstånd på 0.5 pixlar, typsnittet är Arial,Arial Unicode MS,Helvetica,DejaVu Sans,Lucida Sans Unicode,sans-serif. 
+<span class="bold-text"> Zalando </span>har ett ljust tema, de använder mest vitt, ljuslila, ljusblå, ljusgrön, ljusrosa och sedan mörkgrå i deras footer. Typsnittet är ”sans-serif”, deras header och navigeringen har textstorleken 14 pixlar och typsnittet ”HelveticaNow”.  Som bakgrundsfärger använder de hsl(259,74.8%,31.08%), hsl(197,86.4%,20.7%), rgb(243, 146, 96),  rgb(12, 131, 104) , rgb(102, 102, 102) , #0C7AA4, #1a1a1a och #efeff0, de använder #1a1a1a och #fff som textfärger. Textstorleken på deras main (innehåll) är 12 pixlar, de har alfabet avstånd på 0.5 pixlar, typsnittet är Arial,Arial Unicode MS,Helvetica,DejaVu Sans,Lucida Sans Unicode,sans-serif.
 
-<p> Färgerna som webbsidan använder mest: </p>
+<p> Färgerna som Zalando använder mest: </p>
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
         <td style="height: 50px; width: 50px; background-color: hsl(259,74.8%,31.08%)">
@@ -56,12 +61,12 @@ Resultat
 </table>
 
 <div class="image">
-    <a href= "../image/zalando.jpg"> <img src="../image/zalando.jpg"> </a>
+    <a href= "../image/norde.jpg"> <img src="../image/norde.jpg" alt="nordea"> </a>
 </div>
 
 <span class="bold-text">Nordea </span>har ett ljust tema, de använder mest vitt, ljusblå och mörkblå. Deras html har textstorleken 16 pixlar, typsnittet sans-serif, deras body har typsnittet NordeaSansSmall,Arial,Helvetica Neue,Helvetica,sans-serif. I textfärger använder de #000 och #fcfcfc, som bakgrundsfärger använder de #f4f2f1, #dcedff, och #00019f. Deras bilder har ljusa färger också.
 
-<p> Färgerna som webbsidan använder mest: </p>
+<p> Färgerna som Nordea använder mest: </p>
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #fcfcfc">
@@ -71,14 +76,8 @@ Resultat
     </tr>
 </table>
 
-<div class="image">
-    <a href= "../image/norde.jpg"> <img src="../image/norde.jpg"> </a>
-</div>
-
-
 Analys
 -----------------------
-
 <p>Varför Pubg Mobile använder dessa mörka färger på deras hemsidan tror jag för att det är ett äventyr och actionspel, den som lever i slutet av spelet vinner så man behöver döda varandra för att leva. Deras webbplats består av en blandning av bilder, det finns några som har mörka färger och några ljusa vilket är bra tycker jag, man behöver faktiskt blanda mellan olika bild färger, den ger mycket mer liv till hemsidan. Jag skulle säga att webbplatsen har akromatiskt färgschema med vitt, svart och grå då är de färgerna som webbplatsen använder mest men då har de också använt gul, accentfärgen som använts i denna webbplats är gul. Om jag kollar på en HTML Color Picker från W3schools så ser jag att färgen ligger i mitten 50% av bas färgen gul. Webbplatsen är inte Monokromatiskt eller triadiskt färgschema. Jag tror att webbplatsen har ett komplement färgschema då kan fasfärgen vara svart och motsatta färgen gul i det här fallet. De använder typsnittet Sans-serif och ordavstånd vilket gör att man inte får ont i ögonen när man läser en lång text som de har till exempel i deras startsidan under galleriet i socialmedia delen. 
 </p>
 

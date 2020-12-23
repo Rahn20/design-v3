@@ -26,4 +26,8 @@
     .gallery {
         grid-template-columns: auto;
     }
+
+    .gallery img {
+        max-width: 90%;
+    }
 }

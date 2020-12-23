@@ -19,6 +19,10 @@ body {
     background-color: #661a00;
 }
 
+.title * {
+    color: #ffebeb;
+}
+
 header {
     background-color: #c30;
 }
@@ -32,7 +36,7 @@ header {
 }
 
 a {
-    color: #1a1a1a;
+    color: #f0f0f0;
 }
 
 .kmom-box {
@@ -52,14 +56,10 @@ p a {
 }
 
 p {
-    color: #d9d9d9;
+    color: #f0f0e7;
 }
 
 h1 {
-    color: #d9d9d9;
-}
-
-h4 {
     color: #d9d9d9;
 }
 
@@ -68,6 +68,10 @@ h2 {
 }
 
 h3 {
+    color: #d9d9d9;
+}
+
+h4 {
     color: #d9d9d9;
 }
 

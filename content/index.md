@@ -18,6 +18,6 @@ Välkommen
 </div>
 
 <div class="me">
-    <img src="image/ranim.jpg">
+    <img src="image/ranim.jpg" alt="Ranims karktär i Pubg Mobile">
     <p> Ranims karaktär i PUBG MOBILE</p>
 </div>

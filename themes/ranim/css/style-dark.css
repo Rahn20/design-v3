@@ -6265,7 +6265,6 @@ header {
 
   .flash img {
     width: 100%;
-    height: 100%;
     margin: 0;
   }
 
@@ -6339,6 +6338,11 @@ hem + om + redovisning + analys
   .index p {
     float: none;
     width: 100%;
+  }
+
+  .me img {
+    width: 70%;
+    height: auto;
   }
 
   .image img {
@@ -6554,6 +6558,10 @@ hem + om + redovisning + analys
   .gallery {
     grid-template-columns: auto;
   }
+
+  .gallery img {
+    max-width: 90%;
+  }
 }
 body {
   background-color: #1a1a1a;
@@ -6561,6 +6569,10 @@ body {
 
 .main {
   background-color: #661a00;
+}
+
+.title * {
+  color: #ffebeb;
 }
 
 header {
@@ -6576,7 +6588,7 @@ header {
 }
 
 a {
-  color: #1a1a1a;
+  color: #f0f0f0;
 }
 
 .kmom-box {
@@ -6596,14 +6608,10 @@ p a {
 }
 
 p {
-  color: #d9d9d9;
+  color: #f0f0e7;
 }
 
 h1 {
-  color: #d9d9d9;
-}
-
-h4 {
   color: #d9d9d9;
 }
 
@@ -6612,6 +6620,10 @@ h2 {
 }
 
 h3 {
+  color: #d9d9d9;
+}
+
+h4 {
   color: #d9d9d9;
 }
 

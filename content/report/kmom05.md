@@ -10,7 +10,8 @@ Template: kmom
 
 <h1> Kursmoment 5 </h1>
 
-
+<h2></h2>
+<h3></h3>
 <h4>1- Berätta kort om erfarenheterna med din undersökning av webbplatsers laddningstid och vad du kom fram till.</h4>
 <p> Jag lärde mig hur man kan kolla på webbplatsens storlek och hur mycket filerna har för storlek speciellt bilderna. Stora bilder tar mer KB och för att minska storleken kan man då minska bredden (storleken) på bilder eller använda mindre kvalitén på bilder. Jag har kommit fram till att de stora problemen om varför det tar mycket tid att sidan laddas kan det mest vara att man inte skickar bilder i modernare bildformat, man inte kodar bilder effektivt och använder rätt storlek på bilder.  </p>
 
@@ -25,7 +26,7 @@ Template: kmom
 
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/gpyB54lSpYg" frameborder="0" allowfullscreen></iframe>
+    <iframe title= "Dogs" src="https://www.youtube.com/embed/gpyB54lSpYg" frameborder="0" allowfullscreen></iframe>
 </div>
 
 </div>

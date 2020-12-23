@@ -8,7 +8,8 @@ Template: kmom
 <div class="kmom-content">
 
 <h1> Kursmoment 4 </h1>
-
+<h2></h2>
+<h3></h3>
 <h4> 1- Kommentera kort om skrivuppgiften, något som är värt att nämna från arbetet med den?</h4>
 <p> Analysen var en lång uppgift tycker jag, den tog ganska lång tid att skriva den men den var en bra uppgift. Jag fick lära mig kolla vad webbplatser använder för typografi och färger, den var en lärorik uppgift. I andra uppgiften, att skapa ett mörkt tema, den gick också bra, jag skapade en ny SASS fil och jag la nya bakgrundsfärger och textfärger på mina bakgrunder, divvar och texter. I mitt nuvarande tema har jag ljusa färger och mörkgrå text, i det mörka temat använder jag svart och mörkrött som bakgrundsfärger och ljusgrå textfärg. 
 </p>
